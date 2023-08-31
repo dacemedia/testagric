@@ -5,7 +5,7 @@ const WorkPage = () => {
   return (
     <>
       <PageIntro
-        eyebrow="Our work"
+        eyebrow="Featured work"
         title="Proven solutions for real-world problems."
       >
         <p>

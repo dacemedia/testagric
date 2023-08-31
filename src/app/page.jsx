@@ -5,22 +5,30 @@ import FadeIn from "@/components/FadeIn";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import logoPhobiaDark from "@/images/clients/phobia/logo-dark.svg";
+import Image from "next/image";
+import imageLaptop from "../images/laptop.jpg";
+import imageWoman from "../images/woman.png";
 
 export default function Home() {
   return (
-    <main className="text-black">
-      <Container className="mt-24 sm:mt-32">
-        <FadeIn className="max-w-3xl">
-          <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Make your online presence a reality with us!
+    <main className="text-green">
+      <Container className="mt-40 sm:mt-50">
+        <FadeIn className="max-w-7xl">
+          <h1 className="font-display  font-semibold tracking-tight text-neutral-950 [text-wrap:balance] sm:text-8xl">
+            We Know Farmers  More than Anyone Else.
           </h1>
-          <p className="mt-6 text-xl text-neutral-600">
-            We are a group of developer working at the intersection of design
-            and technology. It is a really busy intersection though — a lot of
-            our staff have been involved in hit and runs.
-          </p>
+          {/* <p className="mt-6 text-xl text-neutral-600">
+            We are on a mission to make agriculture science simple
+          </p> */}
         </FadeIn>
+        
       </Container>
+      <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/>  <br/>
+      <Image
+                src={imageWoman}
+                sizes="(min-width: 1024px) 41rem, 31rem"
+                className="justify-center lg:justify-end"
+              />
       <Clients />
       <Testimonials
         className="mt-24 sm:mt-32 lg:mt-40"

@@ -13,13 +13,13 @@ const SectionIntro = ({
 }) => {
   return (
     <Container {...props}>
-      <FadeIn className="max-w-2xl">
+      <FadeIn className="max-w-6xl">
         <h2>
           {eyebrow && (
             <>
               <span
                 className={clsx(
-                  "mb-6 block font-display text-base font-semibold",
+                  "mb-6 block font-display text-base font-bold",
                   invert ? "text-white" : "text-neutral-950"
                 )}
               >
@@ -32,7 +32,7 @@ const SectionIntro = ({
             className={clsx(
               "block font-display tracking-tight [text-wrap:balance]",
               smaller
-                ? "text-2xl font-semibold"
+                ? "text-2xl font-bold"
                 : "text-4xl font-medium sm:text-5xl",
               invert ? "text-white" : "text-neutral-950"
             )}

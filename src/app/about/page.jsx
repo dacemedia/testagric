@@ -15,22 +15,20 @@ const AboutPage = () => {
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            Agricomm was started out of the pain of losing seedlings due to luck of adequet information.
+            Therefore our mission is to simplify the science of Agriculture.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
+            At Agricomm, we’re more than just colleagues — we’re a family. This
             means we pay very little and expect people to work late. We want our
             employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+            ask that they keep themselves there until at least 5:00pm.
           </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
+          <StatListItem value="4" label="Teammates" />
           <StatListItem value="52" label="Placated clients" />
           <StatListItem value="$25M" label="Invoices billed" />
         </StatList>

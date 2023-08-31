@@ -27,7 +27,7 @@ const Header = ({
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} aria-label="Home">
-          <Logo invert={invert}>Abdullah Agency</Logo>
+          <Logo invert={invert}>Agricomm Media</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href={"/contact"} invert={invert}>
@@ -90,7 +90,7 @@ const Navigation = () => {
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/process">Our Process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        <NavigationItem href="/blog">Events</NavigationItem>
       </NavigationRow>
     </nav>
   );
