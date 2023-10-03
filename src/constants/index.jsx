@@ -21,7 +21,7 @@ export const navigation = [
     links: [
       { title: "About", href: "/about" },
       // { title: "Process", href: "/process" },
-      { title: "Events", href: "/blog" },
+      { title: "Events", href: "/events" },
       { title: "Contact us", href: "/contact" },
     ],
   },
