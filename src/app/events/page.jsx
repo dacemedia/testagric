@@ -24,7 +24,7 @@ const BlogPage = () => {
           }}
         
         >
-          Launch of the climate Smart Governance Dashboard "Oct 3 2023"
+          Launch of the climate Smart Governance Dashboard Oct 3 2023
         </a>
 <br/> <br/> 
 
@@ -45,7 +45,7 @@ const BlogPage = () => {
           }}
         
         >
-          CimBeR - Locally Led Community Solar Water System ""
+          CimBeR Locally Led Community Solar Water System
         </a>
       </PageIntro>
     </>
