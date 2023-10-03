@@ -45,7 +45,7 @@ const BlogPage = () => {
           }}
         
         >
-          CimBeR - Locally Led Community Solar Water System
+          CimBeR - Locally Led Community Solar Water System ""
         </a>
       </PageIntro>
     </>
