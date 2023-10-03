@@ -29,7 +29,7 @@ const BlogPage = () => {
 <br/> <br/> 
 
         <a
-          href="https://drive.google.com/drive/folders/1F9qXDwIy82-XbKAPFp7DywWhzAmI0y-5?usp=sharing"
+          href="https://drive.google.com/drive/folders/1VhFnaF-Xz4NmnlNxr3MTC339eILPd9ww?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -45,7 +45,7 @@ const BlogPage = () => {
           }}
         
         >
-          Launch of the climate Smart Governance Dashboard
+          CimBeR - Locally Led Community Solar Water System
         </a>
       </PageIntro>
     </>
