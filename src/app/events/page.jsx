@@ -47,6 +47,26 @@ const BlogPage = () => {
         >
           CimBeR Locally Led Community Solar Water System
         </a>
+
+        <a
+          href="https://drive.google.com/drive/folders/1UgZ8tCSJ__A9ETtDCy9jHLYHE0d4wBZN?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px", // Adjust padding for button size
+            border: "2px solid #000", // Add border (stroke)
+            borderRadius: "5px", // Add rounded corners
+            fontSize: "16px", // Adjust font size
+            textDecoration: "none", // Remove underline
+            color: "#000", // Text color
+            backgroundColor: "#fff", // Background color
+            fontWeight: "bold", // Bold text
+          }}
+        
+        >
+          Early Warning, Early Action, Early Finance AWARE Platform
+        </a>
       </PageIntro>
     </>
   );
