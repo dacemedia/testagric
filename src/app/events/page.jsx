@@ -70,7 +70,7 @@ const BlogPage = () => {
           Early Warning, Early Action, Early Finance AWARE Platform
         </a>
 
-
+<br/> <br/>
          <a
           href="https://drive.google.com/drive/folders/1ztKcAtai61DDZc5NSKB4HK8SBGpirU-x?usp=drive_link"
           target="_blank"
