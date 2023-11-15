@@ -69,6 +69,27 @@ const BlogPage = () => {
         >
           Early Warning, Early Action, Early Finance AWARE Platform
         </a>
+
+
+         <a
+          href="https://drive.google.com/drive/folders/1ztKcAtai61DDZc5NSKB4HK8SBGpirU-x?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "inline-block",
+            padding: "10px 20px", // Adjust padding for button size
+            border: "2px solid #000", // Add border (stroke)
+            borderRadius: "5px", // Add rounded corners
+            fontSize: "16px", // Adjust font size
+            textDecoration: "none", // Remove underline
+            color: "#000", // Text color
+            backgroundColor: "#fff", // Background color
+            fontWeight: "bold", // Bold text
+          }}
+        
+        >
+          Development of National Framework For Weather, Water and Climate Services For Zambia
+        </a>
       </PageIntro>
     </>
   );
