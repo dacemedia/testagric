@@ -18,16 +18,13 @@ const Cultures = () => {
       <Container className="mt-16">
         <GridList>
           <GridListItem title="Loyalty" invert>
-            Our team has been with us since the beginning because none of them
-            are allowed to have LinkedIn profiles.
+          Experience the strength of enduring commitment. Our dedicated team has been by our side since the inception, demonstrating unwavering loyalty that propels us forward.
           </GridListItem>
           <GridListItem title="Trust" invert>
-            We don’t care when our team works just as long as they are working
-            every waking second.
+          Embrace a culture of trust and autonomy. We empower our team with the freedom to choose when and how they work, fostering a dynamic environment built on mutual respect.
           </GridListItem>
           <GridListItem title="Compassion" invert>
-            You never know what someone is going through at home and we make
-            sure to never find out.
+          At the heart of our community lies compassion. We understand that life is complex, and we prioritize an open, supportive atmosphere where personal challenges are acknowledged and met with empathy.
           </GridListItem>
         </GridList>
       </Container>
