@@ -19,10 +19,7 @@ const AboutPage = () => {
             Therefore our mission is to simplify the science of Agriculture.
           </p>
           <p>
-            At Agricomm, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 5:00pm.
+            At Agricomm, we’re more than just colleagues — we’re a family.
           </p>
         </div>
       </PageIntro>
