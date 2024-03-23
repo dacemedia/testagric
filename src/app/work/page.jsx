@@ -14,6 +14,9 @@ const WorkPage = () => {
           the same five projects we’ve been developing for the past decade.
         </p>
       </PageIntro>
+
+
+      
     </>
   );
 };

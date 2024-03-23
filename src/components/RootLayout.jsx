@@ -4,7 +4,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import { motion, MotionConfig, useReducedMotion } from "framer-motion";
 import Container from "./Container";
 import Link from "next/link";
-import Logo from "./Logo";
+import imageLogo from "../images/agricomm_logo.png";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
 import Button from "./Button";
@@ -12,6 +12,8 @@ import clsx from "clsx";
 import Offices from "./Offices";
 import SocialMedia from "./SocialMedia";
 import Footer from "./Footer";
+
+import Image from "next/image";
 
 const Header = ({
   panelId,
@@ -27,8 +29,9 @@ const Header = ({
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} aria-label="Home">
-          <Logo invert={invert}>Agricomm Media</Logo>
-        </Link>
+  <Image src={imageLogo} alt="Agricomm Media Logo" invert={invert} height={80} width={160} />  </Link>
+
+
         <div className="flex items-center gap-x-8">
           <Button href={"/contact"} invert={invert}>
             Contact us

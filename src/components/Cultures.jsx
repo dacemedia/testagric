@@ -7,24 +7,24 @@ const Cultures = () => {
   return (
     <div className="mt-24 rounded-4xl bg-neutral-950 py-24 sm:mt-32 lg:mt-40 lg:py-32">
       <SectionIntro
-        eyebrow="Our culture"
-        title="Balance your passion with your passion for life."
+        eyebrow="Our goal"
+        title="Unlocking human potential in agriculture with digital and communication tools."
         invert
       >
         <p>
-          We are a group of like-minded people who share the same core values.
+          We envision a continent empowered to feed the world.
         </p>
       </SectionIntro>
       <Container className="mt-16">
         <GridList>
-          <GridListItem title="Loyalty" invert>
-          Experience the strength of enduring commitment. Our dedicated team has been by our side since the inception, demonstrating unwavering loyalty that propels us forward.
+          <GridListItem title="Our Vision" invert>
+          To revolutionize agricultural extension services across Africa by empowering extension officers and farmers with the tools, knowledge, and networks needed to drive agricultural innovation, sustainability, and community prosperity.
           </GridListItem>
-          <GridListItem title="Trust" invert>
-          Embrace a culture of trust and autonomy. We empower our team with the freedom to choose when and how they work, fostering a dynamic environment built on mutual respect.
+          <GridListItem title="Our Mission" invert>
+          To ensure that every extension officer and farmer is equipped, empowered, and inspired to make a significant impact in the communities they serve, thereby driving the transformation toward a more productive, sustainable, and resilient agricultural sector in Africa.
           </GridListItem>
-          <GridListItem title="Compassion" invert>
-          At the heart of our community lies compassion. We understand that life is complex, and we prioritize an open, supportive atmosphere where personal challenges are acknowledged and met with empathy.
+          <GridListItem title="Our Commitment" invert>
+          Transforming the landscape of agricultural extension.
           </GridListItem>
         </GridList>
       </Container>
