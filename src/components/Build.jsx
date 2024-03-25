@@ -5,34 +5,18 @@ import Blockquote from "./Blockquote";
 
 const Build = () => {
   return (
-    <Section title="Build" image={{ src: imageLaptop, shape: 2 }}>
+    <Section title="Course Design and Storyboarding" image={{ src: imageLaptop, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
+        Having a clear understanding of the learners’ needs makes the transition into the Design phase smooth. The insights from the Analysis phase are utilized to draft a blueprint that outlines the learning journey. A key tool used in this phase is Storyboarding, serving as a visual map of the course flow, detailing the sequence of content, interactions, and assessments. This visualization tool not only aids in obtaining client approval but also ensures that all stakeholders share a unified vision of the course’s structure and flow, reducing the likelihood of major revisions later on.
         </p>
-        <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
-        </p>
-        <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
-        </p>
+       
       </div>
       <Blockquote
-        author={{ name: "Debra Fiscal", role: "CEO of Unseal" }}
+        author={{ name: "Debra Fiscal", role: "CEO of Agrito" }}
         className="mt-12"
       >
-        Studio_clone were so regular with their progress updates we almost began
-        to think they were automated!
+        Agricomm were so good in there process of storyboarding
       </Blockquote>
     </Section>
   );

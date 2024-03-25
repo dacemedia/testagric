@@ -5,28 +5,12 @@ import { TagList, TagListItem } from "./TagList";
 
 const Discover = () => {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard, shape: 1 }}>
+    <Section title="Project Initiation and Analysis" image={{ src: imageWhiteboard, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{" "}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+        The beginning of any eLearning project is crucial as it sets the tone and direction for the entire venture. The initial phase, known as the project kick-off, is key in aligning stakeholders to the project’s goals, scope, and expectations. This alignment fosters a collaborative spirit, crucial for the successful fruition of the project. Following the kick-off, the project moves into the Analysis stage, marking the start of the ADDIE (Analysis, Design, Development, Implementation, Evaluation) model, a highly-regarded framework in the eLearning content development process. This phase is focused on understanding the learner’s needs and establishing clear learning objectives, laying a solid foundation for the phases that follow.
         </p>
-        <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{" "}
-          <strong className="font-semibold text-neutral-950">business</strong>
-          accounts — handing that information over to our forensic accounting
-          team.
-        </p>
-        <p>
-          Once the full audit is complete, we report back with a comprehensive
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
-        </p>
+        
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
         Included in this phase
@@ -34,10 +18,6 @@ const Discover = () => {
       <TagList className="mt-4">
         <TagListItem>In-depth questionnaires</TagListItem>
         <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
       </TagList>
     </Section>
   );

@@ -2,6 +2,10 @@ import Build from "@/components/Build";
 import ContactSection from "@/components/ContactSection";
 import Deliver from "@/components/Deliver";
 import Discover from "@/components/Discover";
+import ProDev from "@/components/ProDev";
+import QA from "@/components/QA";
+import Review from "@/components/Review";
+import Live from "@/components/Live";
 import PageIntro from "@/components/PageIntro";
 import Values from "@/components/Values";
 import React from "react";
@@ -23,6 +27,17 @@ const ProcessPage = () => {
         <Build />
         {/* Deliver */}
         <Deliver />
+
+        {/* Production Development */}
+        <ProDev />
+
+        {/* QA */}
+        <QA />
+        {/* Review */}
+        <Review />
+        {/* Live */}
+        <Live />
+
       </div>
       {/* Values */}
       <Values />
