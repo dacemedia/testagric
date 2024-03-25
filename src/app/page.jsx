@@ -27,22 +27,42 @@ import imageWoman from "../images/woman.png";
 export default function Home() {
   return (
     <main className="text-green">
-      <Container className="mt-40 sm:mt-30">
+      <Container className="mt-50 sm:mt-40">
         <FadeIn className="max-w-0xl">
-          <h1 className="font-display font-semibold tracking-tight text-neutral-950 sm:text-9xl">
+          <h1 className="font-display font-semibold tracking-tight text-neutral-950 sm:text-8xl">
             We create <span style={{ color: '#90ae3d' }}>Communication Products </span> together with you.
           </h1>
         </FadeIn>
       </Container>
 
       <div className="flex justify-center">
-  <Image
-    src={imageWoman}
-    sizes="(min-width: 1024px) 41rem, 31rem"
-    style={{ width: '100%', marginLeft: '90px', marginRight: '90px' }}
-  />
+      <Container>
+
+      <br/>
+      <br/>
+
+     
+  <div className="flex flex-wrap items-center justify-center">
+    {/* Render the single video thumbnail */}
+    <div className="relative">
+     
+        <Image src={imageWoman} alt="hero" width={2000} height={400} />
+        {/* Play button */}
+        
+    
+    </div>
+  </div>
+</Container>
+
+
 </div>
 
+
+
+
+<br/>
+<br/>
+<br/>
 
       <Container>
       <h2 className="font-display font-semibold text-4xl text-neutral-950 mt-8">
@@ -50,7 +70,7 @@ export default function Home() {
 </h2>
 
         <br/>
-        <br/>
+     
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-9 mt-9">
   {/* Add your client logos here */}
