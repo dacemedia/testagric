@@ -3,6 +3,9 @@ import Container from "@/components/Container";
 import Cultures from "@/components/Cultures";
 import PageIntro from "@/components/PageIntro";
 
+import imageFO from "src/images/work.png";
+import Image from "next/image";
+
 
 
 import { StatList, StatListItem } from "@/components/StatList";
@@ -32,9 +35,19 @@ const AboutPage = () => {
           <StatListItem value="2500" label="Farmers Trained" />
         </StatList>
 
+<br/>
+<br/>
+<br/>
    
-   
+   <Image
+          src={imageFO}
+          alt="Woman Image"
+          width={1080}
+          height={500}
+        />
       </Container>
+
+
 
       
       <Cultures />
