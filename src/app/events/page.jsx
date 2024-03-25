@@ -8,6 +8,8 @@ const BlogPage = () => {
           Stay up-to-date with the latest Events
         </p> */}
   <a
+
+  
           href="https://drive.google.com/drive/folders/1F9qXDwIy82-XbKAPFp7DywWhzAmI0y-5?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"

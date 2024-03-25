@@ -18,7 +18,7 @@ import imageWoman from "../images/woman.png";
 import imagePLAY from "src/images/play.png";
 
 const videos = [
-  { title: "Intro", youtubeLink: "https://vimeo.com/469334952?share=copy" },
+  { title: "Intro", youtubeLink: "https://vimeo.com/474712797?share=copy" },
   // Add more video objects as needed
 ];
 

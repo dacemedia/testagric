@@ -16,8 +16,7 @@ const Deliver = () => {
       </h3>
       <List>
         <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+        Content Test that 100% of Knowledge gaps have been covered
         </ListItem>
       </List>
     </Section>

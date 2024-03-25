@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "./Section";
-import imageMeeting from "@/images/meeting.jpg";
+import imageMeeting from "@/images/qa.jpg";
 import List, { ListItem } from "./List";
 
 const QA = () => {
@@ -14,9 +14,8 @@ const QA = () => {
         Included in this phase
       </h3>
       <List>
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+        <ListItem title="">
+        Focus group testing and Fine tuning
         </ListItem>
       </List>
     </Section>

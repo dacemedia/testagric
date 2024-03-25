@@ -15,7 +15,7 @@ import React from "react";
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="About us" title="We begin and end with the farmer.">
         <p>
           We believe that our strength lies in our collaborative approach, which puts farmers at the center of everything we do.
         </p>

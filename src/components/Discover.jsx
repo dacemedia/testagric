@@ -16,8 +16,8 @@ const Discover = () => {
         Included in this phase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
+        <TagListItem>In-depth research</TagListItem>
+        <TagListItem>Knowledge gaps</TagListItem>
       </TagList>
     </Section>
   );

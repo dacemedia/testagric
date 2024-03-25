@@ -13,7 +13,7 @@ const Build = () => {
        
       </div>
       <Blockquote
-        author={{ name: "Debra Fiscal", role: "CEO of Agrito" }}
+        author={{ name: "Dr Dickson Pele", role: "Livestock Adviser" }}
         className="mt-12"
       >
         Agricomm were so good in there process of storyboarding

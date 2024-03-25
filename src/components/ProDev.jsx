@@ -1,6 +1,6 @@
 import React from "react";
 import Section from "./Section";
-import imageMeeting from "@/images/meeting.jpg";
+import imageMeeting from "@/images/production.jpg";
 import List, { ListItem } from "./List";
 
 const ProDev = () => {
@@ -15,10 +15,9 @@ const ProDev = () => {
         Included in this phase
       </h3>
       <List>
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
+        <ListItem title="Script Writing | Graphic design | Pre - testing">
         </ListItem>
+       
       </List>
     </Section>
   );
