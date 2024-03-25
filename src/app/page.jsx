@@ -30,7 +30,7 @@ export default function Home() {
       <Container className="mt-50 sm:mt-40">
         <FadeIn className="max-w-0xl">
           <h1 className="font-display font-semibold tracking-tight text-neutral-950 sm:text-8xl">
-            We create <span style={{ color: '#90ae3d' }}>Communication Products </span> together with you.
+            We simplify <span style={{ color: '#90ae3d' }}>agriculture science</span> for sustainable farming
           </h1>
         </FadeIn>
       </Container>
