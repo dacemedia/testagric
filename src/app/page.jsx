@@ -27,77 +27,92 @@ import imageWoman from "../images/woman.png";
 export default function Home() {
   return (
     <main className="text-green">
-      <Container className="mt-50 sm:mt-40">
+      
+      <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              
+
+              <Container>
         <FadeIn className="max-w-0xl">
-          <h1 className="font-display font-semibold tracking-tight text-neutral-950 sm:text-8xl">
-            We simplify <span style={{ color: '#90ae3d' }}>agricultural science</span> for sustainable farming
+          <h1 className="font-display font-semibold  text-neutral-950 sm:text-8xl text-4xl">
+            We simplify{" "}
+            <span style={{ color: "#90ae3d" }}>agricultural science</span> for
+            sustainable farming
           </h1>
         </FadeIn>
-      </Container>
+        </Container>
+     
 
       <div className="flex justify-center">
-      <Container>
-
-      <br/>
-      <br/>
-
-     
-  <div className="flex flex-wrap items-center justify-center">
-    {/* Render the single video thumbnail */}
-    <div className="relative">
-     
-        <Image src={imageWoman} alt="hero" width={2000} height={400} />
-        {/* Play button */}
-        
-    
-    </div>
-  </div>
-</Container>
-
-
-</div>
-
-
-
-
-<br/>
-<br/>
-<br/>
+        <Container>
+          <div className="slide-container">
+            <div className="slide">
+              <br />
+              <br />
+              <div className="flex flex-wrap items-center justify-center">
+                <div className="relative">
+                  <Image
+                    src={imageWoman}
+                    alt="hero"
+                    width={2000}
+                    height={400}
+                  />
+                  {/* Play button */}
+                </div>
+              </div>
+            </div>
+            {/* Add more slides here if needed */}
+          </div>
+        </Container>
+      </div>
+      <br />
+      <br />
+      <br />
 
       <Container>
-      <h2 className="font-display font-semibold text-4xl text-neutral-950 mt-8">
-  People we have worked with
-</h2>
+        <h2 className="font-display font-semibold text-4xl text-neutral-950 mt-8">
+          People we have worked with
+        </h2>
 
-        <br/>
-     
+        <br />
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-9 mt-9">
-  {/* Add your client logos here */}
-  <Image src={logoCGIAR} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logociat} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logosoli} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logotechnoserve} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logosnv} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logofao} alt="Phobia Logo" className="h-19 w-auto" />
+          {/* Add your client logos here */}
+          <Image src={logoCGIAR} alt="Phobia Logo" className="h-19 w-auto" />
+          <Image src={logociat} alt="Phobia Logo" className="h-19 w-auto" />
+          <Image src={logosoli} alt="Phobia Logo" className="h-19 w-auto" />
+          <Image
+            src={logotechnoserve}
+            alt="Phobia Logo"
+            className="h-19 w-auto"
+          />
+          <Image src={logosnv} alt="Phobia Logo" className="h-19 w-auto" />
+          <Image src={logofao} alt="Phobia Logo" className="h-19 w-auto" />
 
-  <Image src={logoiwmi} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logouniversity_of_reading} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logounza} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logocimmyt} alt="Phobia Logo" className="h-19 w-auto" />
-  <Image src={logocargil} alt="Phobia Logo" className="h-19 w-auto" />
+          <Image src={logoiwmi} alt="Phobia Logo" className="h-19 w-auto" />
+          <Image
+            src={logouniversity_of_reading}
+            alt="Phobia Logo"
+            className="h-19 w-auto"
+          />
+          <Image src={logounza} alt="Phobia Logo" className="h-19 w-auto" />
+          <Image src={logocimmyt} alt="Phobia Logo" className="h-19 w-auto" />
+          <Image src={logocargil} alt="Phobia Logo" className="h-19 w-auto" />
 
-  <Image src={logozim} alt="Phobia Logo" className="h-19 w-auto" />
-  {/* Add more logos as needed */}
-</div>
-
+          <Image src={logozim} alt="Phobia Logo" className="h-19 w-auto" />
+          {/* Add more logos as needed */}
+        </div>
       </Container>
 
-      <Testimonials
-        className="mt-24 sm:mt-32 lg:mt-40"
-        client={{ name: ""}}
-      >
-        I highly recommend Agricomm. They connect the dots in agriculture, ensuring vital knowledge reaches those who need it most, ultimately driving food security. - Dr David Chikoye, IITA Southern African Hub Director
+      <Testimonials className="mt-24 sm:mt-32 lg:mt-40" client={{ name: "" }}>
+        I highly recommend Agricomm. They connect the dots in agriculture,
+        ensuring vital knowledge reaches those who need it most, ultimately
+        driving food security. - Dr David Chikoye, IITA Southern African Hub
+        Director
       </Testimonials>
 
       <Services />

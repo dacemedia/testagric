@@ -58,5 +58,25 @@
   padding: 20px;
 }
 
+.slide-container {
+  overflow: hidden; /* Prevent slides from overflowing */
+  width: 100%; /* Adjust width as needed */
+  display: flex; /* Allow slides to sit side-by-side */
+}
+
+.slide {
+  width: 100%; /* Each slide takes up full width */
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+/* Add styles for different slide positions (optional) */
+.slide-container.active .slide:first-child {
+  transform: translateX(-100%); /* Slide first slide to the left */
+}
+
+.slide-container.active .slide:nth-child(2) {
+  transform: translateX(0); /* Show second slide */
+}
+
 
 
